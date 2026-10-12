@@ -10,7 +10,7 @@ int main()
     printf("Password : ");
     gets(pass);
 
-    if (strcmp(user, "Looping") == 0 && strcmp(pass, "Forever") == 0){
+    if (strcmp(user, "Zikal") == 0 && strcmp(pass, "lakiZ") == 0){
         printf("Login Sukses \n");
         printf("Silahkan Lanjutkan\n");
     }

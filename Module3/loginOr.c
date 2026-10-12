@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-char user[50] = "aku";
-char pass[50] = "login";
+char user[50] = "Zikal";
+char pass[50] = "masuk";
 
 int main()
 {
