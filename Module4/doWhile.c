@@ -9,6 +9,6 @@ void main()
     {
         printf("%d\n", i);
         i = i + 1;
-    } while (i <= 10);
-    return;
+    } 
+    while (i <= 10);
 }
