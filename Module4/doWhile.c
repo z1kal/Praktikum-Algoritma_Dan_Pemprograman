@@ -2,7 +2,7 @@
 
 int i;
 
-int main()
+void main()
 {
     i = 1;
     do
@@ -10,5 +10,5 @@ int main()
         printf("%d\n", i);
         i = i + 1;
     } while (i <= 10);
-    return 0;
+    return;
 }
