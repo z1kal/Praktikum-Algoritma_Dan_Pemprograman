@@ -1,27 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 
-int nilai,n,i;
-char nama[100];
+int i;
 
-int main()
-{
-    system("cls");
-
-    printf("Banyak data: ");
-    scanf("%d", &n);
-    getchar();
-
-    for (i = 1; i<=n;i++) {
-        printf("\n Data ke-%d\n", i);
-
-        printf("Nilai: ", &nilai);
-        getchar();
-
-        printf("Nama: ");
-        scanf("%d",&nilai); 
-        fgets(nama, sizeof(nama), stdin);
-        getchar();
+void main(){
+    for (i=1; i<8; i++)
+    {
+        printf("%d \n",i);
     }
-    return 0;
 }
