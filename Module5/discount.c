@@ -14,7 +14,7 @@ int main() {
     total_diskon = hitung(total,diskon);
     printf("Diskon yang di dapat = Rp %d\n", total_diskon);
     total_biaya = total-total_diskon;
-    printf("Biaya setelah diskon = Rp. %d", total_biaya);
+    printf("Biaya setelah diskon = Rp. %d\n", total_biaya);
     return 0;
 }
 
